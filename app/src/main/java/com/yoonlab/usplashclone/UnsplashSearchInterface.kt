@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface UnsplashSearchInterface {
-    @GET ("search/photos?client_id=4rvJU82BkuKftXvBJpOFNnS7yvxh4L-OC9CLAghWzOM")
+    @GET ("search/photos?client_id=APIKEY")
     fun getImage(@Query("query") query: String,
     @Query("page") page: Int,
     @Query("per_page") perPage: Int,
